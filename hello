@@ -1,0 +1,3 @@
+# This file will print the contents of gpalmersheim.txt 
+# with a preceding new line and two following new lines
+Printf "\n%s\n\n" "$(<gpalmersheim.txt)"
