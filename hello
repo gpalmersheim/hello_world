@@ -2,7 +2,7 @@
 # with a preceding new line and two following new lines
 # this is the old line .. Printf "\n%s\n\n" "$(<gpalmersheim.txt)"
 # read all the files endingin .txt in the directory
-for name in ./*.txt
+for name in ./names/*.nm
 do
   #Print the contents on one line
   Printf "%s\n" "$(<"$name")"
